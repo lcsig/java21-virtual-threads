@@ -16,7 +16,7 @@ Difference in Time between Virtual Threads and Real Threads in Java 21
 ```text
 [+] Test Started
 [+] Test Ended
-[+] Time: 4265ms
+[+] Time: 124ms
 [+] Final Atomic Long Value: 100000
 [+] Threads: 100000
 ```
