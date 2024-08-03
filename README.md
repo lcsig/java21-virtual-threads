@@ -1,6 +1,15 @@
 # Java 21 Virtual Threads
 Difference in Time between Virtual Threads and Real Threads in Java 21
 
+## One Thread 
+```text
+[+] Test Started
+[+] Test Ended
+[+] Time: 3ms
+[+] Final Atomic Long Value: 100000
+[+] Threads: 100000
+```
+
 ## Real Threads 
 
 ```text
@@ -22,6 +31,19 @@ Difference in Time between Virtual Threads and Real Threads in Java 21
 ```
 
 ## Linux 'time' Tool - Summarize System Resource Usage
+
+```text
+$ time java -cp virtual.thread-1.0.jar MainThread
+[+] Test Started
+[+] Test Ended
+[+] Time: 2ms
+[+] Final Atomic Long Value: 100000
+[+] Threads: 100000
+
+real	0m0.048s
+user	0m0.027s
+sys	0m0.023s
+```
 
 ```text
 $ time java -cp virtual.thread-1.0.jar RealThreads
