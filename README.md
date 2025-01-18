@@ -70,3 +70,8 @@ real	0m0.145s
 user	0m0.882s
 sys	0m0.043s
 ```
+
+## Buy me a Coffee: 
+BTC: bc1q2kqvggm552h0csyr0awa2zepdapxdqnacw0z5w
+
+![BTC](https://raw.githubusercontent.com/lcsig/API-Hooking/refs/heads/master/img/btc.png)
